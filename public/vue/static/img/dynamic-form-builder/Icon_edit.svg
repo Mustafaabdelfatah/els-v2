@@ -1,0 +1,6 @@
+<svg id="Icon_edit" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Icon_edit-2" data-name="Icon_edit" transform="translate(4 4)">
+    <path id="Path" d="M2.828.293a1,1,0,0,0-1.414,0L0,1.707,4.243,5.95,5.657,4.536a1,1,0,0,0,0-1.414Z" transform="translate(11.036 0.308)" fill="#33498b"/>
+    <path id="Path-2" data-name="Path" d="M13.435,4.243,9.192,0,.293,8.9A1,1,0,0,0,0,9.607v2.828a1,1,0,0,0,1,1H3.828a1,1,0,0,0,.707-.293Z" transform="translate(0.429 3.429)" fill="#33498b"/>
+  </g>
+</svg>

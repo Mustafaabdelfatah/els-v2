@@ -1,0 +1,234 @@
+/* form editor*/
+.form-tools{
+  /* justify-content: space-around; */
+}
+.form-tools img {
+  max-width: 40px;
+}
+.form-tools h6{
+  font-size: .8rem;
+  margin: 0 auto;
+}
+.vue-tab-link:after{
+  display: none;
+}
+.vue-tab-link{
+  white-space: pre-wrap;
+
+}
+.Edit-form .vue-tab-link {
+  white-space: inherit;
+}
+.Edit-form input[type=checkbox], .Edit-form input[type=radio]{
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+}
+.form-review .e-content input[type=checkbox]{
+  width: 16px;
+  height: 16px;
+  margin-top: 1px;
+}
+.vue-tab-link input{
+  background: #ffffff66;
+  border: 1px solid #eee !important;
+  padding: 5px;
+  margin-right: 10px;
+  width: 95%;
+}
+.e-content{
+  font-size: 0.9rem;
+}
+.e-content input{
+  margin-bottom: 5px;
+  padding: 10px 10px;
+  background: transparent;
+
+  /*height: 36px;*/
+}
+.e-content input, .e-content textarea{
+  font-size: 0.8rem;
+}
+.result-item:hover{
+  background: linear-gradient(to right, #32437a, #313f6d) !important;
+  color: #fff;
+}
+#results-body i{
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--main-color);
+  position: relative;
+  display: block;
+}
+#results-body i:before{
+  content: "";
+  border-top: .4em solid;
+  border-right: .4em solid transparent;
+  border-bottom: 0;
+  border-left: .4em solid transparent;
+  position: absolute;
+  top: 10px;
+  left: -2px;
+  font-family: inherit;
+
+}
+
+.e-content .float-left{
+  margin-bottom: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.e-content .float-left div{
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 10px;
+  margin-left: 0;
+}
+.e-content .float-left table  div{
+  margin-right: 0;
+}
+.e-content .float-left  div.mb-1{
+  background: #fefefe;
+}
+.e-content .float-left div .remove-choice{
+  width:12px ;
+}
+.e-content .form-control{
+  height: 38px ;
+  margin-top: -1px;
+  /*background: #fff !important;*/
+  border-color: #ddd;
+}
+.e-content input{
+  background: #fff !important;
+}
+
+
+/*.e-content .form-control[readonly = readonly]{*/
+/*  background: #f6f6f6 !important;*/
+/*}*/
+.e-content table span input[type=checkbox],
+.e-content table span input[type=radio]{
+  height: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.e-content  .menu{
+
+  top: 16px !important;
+}
+.e-content span .remove-item{
+  width: 12px !important;
+}
+
+.e-content  .menu-body{
+  width: 222px;
+}
+.remove-column{
+  top: 52px !important;
+  right: -7px !important;
+  width: 13px !important;
+}
+.add-column{
+  top: 51px !important;
+  right: 11px !important;
+}
+.add-row{
+  bottom: 22px !important;
+  right: 11px !important;
+}
+.remove-row{
+  bottom: 21px !important;
+  right: -8px !important;
+}
+.add-option,
+.add-choice{
+  bottom: 11px !important;
+  right: 11px !important;
+}
+.e-content  .menu-body small{
+  font-weight: 400;
+  display: inline-block;
+  font-size: 0.75rem;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  color: var(--main-color);
+}
+.e-content .notes-text{
+  border-color: #ffc107;;
+}
+.e-content select.form-control-sm{
+  border-color: #eee;
+}
+.e-content .notes-text:after{
+  position: absolute;
+  content: '';
+  background: #ffc107;
+  right: -13px;
+  top: 12px;
+  clip-path: polygon(100% 50%, 50% 0, 49% 100%);
+  width: 39px;
+  height: 22px;
+}
+.e-content table span{
+  background: #fff;
+  padding: 15px 1px;
+  margin-right: 5px;
+}
+.e-content table span input{
+  margin-bottom: 20px;
+  margin-top: 3px;
+  border-color: #33498b14;
+  height: 36px;
+}
+.form-review .e-content input,
+.form-review .e-content textarea{
+  /*border-color: var(--main-color) !important;*/
+  /*border-radius: 15px !important;*/
+  border-width: 1px;
+}
+.modal-close{
+  right: 12px !important;
+  top: 12px !important;
+}
+.form-review .e-content label{
+  color: var(--main-color);
+
+}
+.form-review .add-note img{
+  margin-bottom: 13px;
+}
+.form-review .check-input{
+  margin-top: 2rem;
+  display: inline-block;
+}
+.review-status{
+  border-color:#ddd;
+  height: 40px;
+}
+.form-editor.user .mb-2{
+  margin-bottom: 10px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+  background: transparent;
+  border: 0;
+}
+.nav-tabs .nav-link:hover{
+  border-color: transparent;
+}
+.nav-circle{
+  list-style-type: none;
+  padding-right: 0;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  border-bottom:0;
+}
+.nav-circle .nav-item-circle{
+  z-index: 10;
+  position: relative;
+}

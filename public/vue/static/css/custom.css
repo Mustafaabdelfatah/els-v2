@@ -1,0 +1,133 @@
+
+body.spinner:after {
+  z-index: 99999 !important;
+}
+
+body.spinner:before {
+  content: ' ';
+  z-index: 99998 !important;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .1;
+  position: absolute;
+}
+
+.toast-container {
+  z-index: 100000 !important;
+}
+.toast {
+  position: relative;
+}
+.toast .btn-close{
+  position: absolute;
+  top: 5px;
+  right: -5px;
+}
+
+html[data-color="light-blue"] #nav a,
+html[data-color="light-blue"] #nav .name,
+html[data-color="light-blue"] #nav button {
+  color: var(--primary) !important;
+}
+html[data-color="light-blue"] #nav .notification-dot {
+  background: var(--primary) !important;
+}
+html[data-color="light-blue"] .menu a.dropdown-toggle:before {
+  border-top: 1px solid var(--primary) !important;
+  border-right: 1px solid var(--primary) !important;
+}
+
+html[data-color="light-blue"] #nav a.active {
+  color: var(--secondary) !important;
+}
+html[data-color="light-blue"] #nav a.active:before {
+  border-top: 1px solid var(--secondary) !important;
+  border-right: 1px solid var(--secondary) !important;
+}
+html[data-placement='horizontal'] .nav-container .logo img, html[data-placement='horizontal'] .nav-container .logo .img, html[data-placement='vertical'] .nav-container .logo img, html[data-placement='vertical'] .nav-container .logo .img {
+  width: auto!important;
+  height: auto;
+  max-height: 50px;
+  max-width: 170px;
+}
+
+
+.vm--modal {
+  background-color: unset !important;
+  box-shadow: unset !important;
+  width: 100% !important;
+  left: auto !important;
+  right: auto !important;
+  height: auto !important;
+}
+
+html[data-color='light-blue'] {
+  --primary: #35415B;
+  --secondary: #00979E;
+  --tertiary: #53b64c;
+  --quaternary: #99ca3c;
+  --primary-rgb: 53, 65, 91;
+  --secondary-rgb: 0, 151, 158;
+  --tertiary-rgb: 83, 182, 76;
+  --quaternary-rgb: 153, 202, 60;
+  --primary-darker: #262f42;
+  --secondary-darker: #014c50;
+  --tertiary-darker: #3b8236;
+  --quaternary-darker: #638227;
+  --body: #4e4e4e;
+  --alternate: #7c7c7c;
+  --muted: #afafaf;
+  --separator: #dddddd;
+  --separator-light: #f1f1f1;
+  --body-rgb: 59, 59, 59;
+  --alternate-rgb: 124, 124, 124;
+  --muted-rgb: 176, 176, 176;
+  --separator-rgb: 221, 221, 221;
+  --separator-light-rgb: 241, 241, 241;
+  --background: #f9f9f9;
+  --foreground: #ffffff;
+  --background-rgb: 249, 249, 249;
+  --foreground-rgb: 255, 255, 255;
+  --background-theme: #eaf0f1;
+  --background-light: #f8f8f8;
+  --gradient-1: #f1f1f1;
+  --gradient-2: #eee;
+  --gradient-3: #f1f1f1;
+  --gradient-1-darker: #262f42;
+  --gradient-2-darker: #35415B;
+  --gradient-3-darker: #262f42;
+  --light-text: #fff;
+  --dark-text: #343a40;
+  --light-text-darker: #eeeeee;
+  --dark-text-darker: #23272b;
+  --light-text-rgb: 255, 255, 255;
+  --dark-text-rgb: 52, 58, 64;
+  --danger: #cf2637;
+  --info: #279aac;
+  --warning: #ebb71a;
+  --success: #439b38;
+  --light: #dadada;
+  --dark: #4e4e4e;
+  --danger-darker: #771a23;
+  --info-darker: #19545d;
+  --warning-darker: #aa830f;
+  --success-darker: #285422;
+  --light-darker: #c9c9c9;
+  --dark-darker: #282828;
+  --body-darker: #333333;
+  --alternate-darker: #616161;
+  --muted-darker: #888888;
+  --separator-darker: #c0c0c0;
+  --danger-rgb: 182, 40, 54;
+  --info-rgb: 41, 138, 153;
+  --warning-rgb: 235, 183, 26;
+  --success-rgb: 65, 139, 56;
+  --light-rgb: 218, 218, 218;
+  --dark-rgb: 78, 78, 78;
+  --menu-shadow: 0px 3px 10px rgba(0, 0, 0, 0.12);
+  --menu-shadow-navcolor: 0px 2px 6px rgba(0, 0, 0, 0.05);
+  --background-navcolor-light: #fff;
+  --background-navcolor-dark: #253a52;
+  --theme-image-filter: hue-rotate(0deg);
+}
